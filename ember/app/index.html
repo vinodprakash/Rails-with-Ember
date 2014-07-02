@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Sample</title>
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    {{BASE_TAG}}
+
+    <link rel="stylesheet" href="assets/vendor.css">
+    <link rel="stylesheet" href="assets/sample.css">
+  </head>
+  <body>
+    <script>
+      window.SampleENV = {{ENV}};
+      window.EmberENV = window.SampleENV.EmberENV;
+    </script>
+    <script src="assets/vendor.js"></script>
+    <script src="assets/sample.js"></script>
+    <script>
+      window.Sample = require('sample/app')['default'].create(SampleENV.APP);
+    </script>
+  </body>
+</html>
