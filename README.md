@@ -6,14 +6,16 @@ Rails-with-Ember
  
  Make sure to install Ember 
  
- Install Ember Guide
- ===================
+
+Install Ember Guide
+===================
  
   git clone https://github.com/stefanpenner/ember-cli.git
   cd ember-cli
   npm link
- 
- Install Bower 
- =============
+
+
+Install Bower 
+=============
  
    sudo npm install -g bower
