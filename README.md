@@ -9,12 +9,9 @@ Rails-with-Ember
 
 Install Ember Guide
 ===================
- 
-  git clone https://github.com/stefanpenner/ember-cli.git
-  cd ember-cli
-  npm link
+ https://github.com/stefanpenner/ember-cli.git 
 
-
+  
 Install Bower 
 =============
  
